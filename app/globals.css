@@ -21,6 +21,7 @@
     --border: #e5e6e8;
     --ring: #003be2;
     --radius: 0.75rem;
+    --header-height: 7.5rem;
   }
 
   * {

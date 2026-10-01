@@ -48,7 +48,7 @@ export default function HeroSearch() {
 
 const styles = {
   form: cn(
-    "mt-3.5 sm:mt-6 lg:mt-[3.75rem]",
+    "mt-6 sm:mt-9 lg:mt-[3.75rem]",
     "flex items-center justify-center",
     "gap-2 sm:gap-4 w-full max-w-[33.125rem] px-1 sm:px-0"
   ),

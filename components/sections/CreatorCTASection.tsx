@@ -5,17 +5,14 @@ import { cn } from "@/lib/utils";
 export default function CreatorCTASection() {
   return (
     <section className={styles.section}>
-      {/* Background Grid Pattern */}
       <div className={styles.gridPatternWrapper}>
-        <Image
+        <img
           src="/images/cta_bg_grid.svg"
           alt=""
-          fill
           className={styles.imageCover}
         />
       </div>
 
-      {/* 3D Floating Ornaments */}
       <div className={styles.ornamentWrapper}>
         <div className={styles.ornamentContainer}>
           <Image
@@ -56,11 +53,8 @@ const styles = {
     "py-16 sm:py-20 lg:py-[5.3125rem]",
     "flex items-center justify-center"
   ),
-  gridPatternWrapper: cn(
-    "absolute inset-0 pointer-events-none opacity-12",
-    "w-full h-full"
-  ),
-  imageCover: "object-cover",
+  gridPatternWrapper: "absolute inset-0 pointer-events-none z-0",
+  imageCover: "w-full h-full object-cover object-top",
   ornamentWrapper: cn(
     "absolute inset-0 pointer-events-none",
     "overflow-hidden flex items-center justify-center"
@@ -87,6 +81,6 @@ const styles = {
     "inline-flex items-center justify-center",
     "px-6 py-3 rounded-full bg-brand-lime text-brand-dark",
     "font-satoshi font-medium text-[1rem] sm:text-[1.125rem] leading-[1.2em]",
-    "hover:bg-brand-lime-hover hover:scale-105 transition-all duration-300 shadow-md cursor-pointer"
+    "hover:bg-brand-lime-hover transition-all duration-300 shadow-md cursor-pointer"
   ),
 };

@@ -54,11 +54,11 @@ export default function CourseSearchHero({
 const styles = {
   heroBanner: cn(
     "relative w-full overflow-hidden bg-brand-blue",
-    "pt-6 pb-12 sm:pt-8 sm:pb-16",
+    "pt-[9.5rem] pb-12 sm:pt-[10.5rem] sm:pb-16",
     "flex flex-col items-center justify-center"
   ),
-  gridPatternWrapper: "absolute inset-0 pointer-events-none opacity-12",
-  imageCover: "object-cover",
+  gridPatternWrapper: "absolute inset-0 pointer-events-none z-0",
+  imageCover: "object-cover object-top",
   heroContent: cn(
     "relative z-10 flex flex-col items-center",
     "gap-8 px-6 text-center max-w-[50rem] w-full"

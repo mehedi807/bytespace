@@ -21,10 +21,8 @@ const styles = {
     "rounded-xl sm:rounded-2xl p-2 sm:p-3 lg:p-4",
     "shadow-2xl flex-col gap-0.5 sm:gap-1 lg:gap-2",
     "pointer-events-auto border border-white/40 backdrop-blur-md",
-    "left-2 min-[440px]:left-4",
-    "sm:left-[calc(50%-16.875rem)] lg:left-[calc(50%-19.75rem)]",
-    "top-[23.125rem] min-[440px]:top-[24.375rem]",
-    "sm:top-[27.5rem] md:top-[29.375rem] lg:top-[32.4375rem]"
+    "left-[-4%] sm:left-[-6.5%] lg:left-[-8.5%]",
+    "top-[20%] sm:top-[23.5%]"
   ),
   title: cn(
     "font-satoshi font-medium text-brand-gray-950 leading-[1.2em]",

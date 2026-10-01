@@ -91,10 +91,10 @@ export default function CourseDetailsHero({ course }: CourseDetailsHeroProps) {
 const styles = {
   heroBanner: cn(
     "relative w-full overflow-hidden bg-brand-blue",
-    "pt-6 pb-12 sm:pt-8 sm:pb-16 text-brand-gray-50"
+    "pt-[9.5rem] pb-12 sm:pt-[10.5rem] sm:pb-16 text-brand-gray-50"
   ),
-  gridPatternWrapper: "absolute inset-0 pointer-events-none opacity-12",
-  imageCover: "object-cover",
+  gridPatternWrapper: "absolute inset-0 pointer-events-none z-0",
+  imageCover: "object-cover object-top",
   heroContent: cn(
     "relative z-10 max-w-[75rem] mx-auto",
     "px-6 lg:px-0 flex flex-col gap-6"

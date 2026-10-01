@@ -2,9 +2,6 @@ import HeroDecorations from "@/components/hero/HeroDecorations";
 import HeroHeading from "@/components/hero/HeroHeading";
 import HeroSearch from "@/components/hero/HeroSearch";
 import HeroStudentStage from "@/components/hero/HeroStudentStage";
-import UiUxBadge from "@/components/hero/badges/UiUxBadge";
-import HappyStudentsBadge from "@/components/hero/badges/HappyStudentsBadge";
-import LearningProgressBadge from "@/components/hero/badges/LearningProgressBadge";
 import { cn } from "@/lib/utils";
 
 export default function HeroSection() {
@@ -17,9 +14,6 @@ export default function HeroSection() {
           <HeroSearch />
         </div>
         <HeroStudentStage />
-        <UiUxBadge />
-        <HappyStudentsBadge />
-        <LearningProgressBadge />
       </div>
     </section>
   );
@@ -28,12 +22,12 @@ export default function HeroSection() {
 const styles = {
   section: cn(
     "relative w-full overflow-hidden bg-brand-blue",
-    "h-[45rem] sm:h-[48.75rem] md:h-[52.5rem] lg:h-[56.5rem]"
+    "h-[100dvh] min-h-[46rem] max-h-[64rem]"
   ),
   stageWrapper: "relative w-full h-full",
   contentWrapper: cn(
     "absolute z-10 left-0 right-0 px-4",
-    "top-5 sm:top-8 lg:top-[3.0625rem]",
+    "top-[6.5rem] sm:top-[7.25rem] lg:top-[7.75rem] xl:top-[8.5rem]",
     "flex flex-col items-center text-center"
   ),
 };
