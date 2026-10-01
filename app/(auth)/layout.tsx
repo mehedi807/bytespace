@@ -10,7 +10,13 @@ export default function AuthLayout({
 }>) {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.gridOverlay} />
+      <div className={styles.gridPattern}>
+        <img
+          src="/images/hero_grid_pattern.svg"
+          alt=""
+          className={styles.imageCover}
+        />
+      </div>
 
       <header className={styles.header}>
         <div className={styles.headerContainer}>
@@ -41,12 +47,9 @@ const styles = {
     "relative min-h-screen flex flex-col",
     "bg-brand-blue overflow-hidden text-white"
   ),
-  gridOverlay: cn(
-    "absolute inset-0 pointer-events-none opacity-15",
-    "bg-[radial-gradient(#ffffff_1px,transparent_1px)]",
-    "[background-size:24px_24px]"
-  ),
-  header: "relative z-10 w-full py-8 lg:py-10",
+  gridPattern: "absolute inset-0 pointer-events-none z-0",
+  imageCover: "w-full h-full object-cover object-top",
+  header: "relative z-10 w-full py-4 lg:py-6",
   headerContainer: "max-w-[75rem] mx-auto px-6 lg:px-0",
   logoLink: "inline-flex items-center gap-2",
   logoIconWrapper: "relative w-[1.805rem] h-[1.96875rem] shrink-0",
@@ -55,6 +58,6 @@ const styles = {
     "font-clash font-bold text-2xl",
     "leading-none text-white"
   ),
-  main: "relative z-10 flex-1 flex items-center justify-center pb-16 lg:pb-24",
+  main: "relative z-10 flex-1 flex items-center justify-center pb-6 lg:pb-8",
   container: "w-full max-w-[75rem] mx-auto px-6 lg:px-0",
 };

@@ -9,7 +9,13 @@ export default function NotFound() {
       <Navbar />
 
       <main className={styles.heroSection}>
-        <div className={styles.gridOverlay} />
+        <div className={styles.gridOverlay}>
+          <img
+            src="/images/hero_grid_pattern.svg"
+            alt=""
+            className={styles.imageCover}
+          />
+        </div>
 
         <div className={styles.big404Text} aria-hidden="true">
           404
@@ -38,14 +44,10 @@ const styles = {
   heroSection: cn(
     "relative w-full overflow-hidden",
     "bg-brand-blue flex flex-col items-center justify-center",
-    "min-h-[44rem] sm:min-h-[50rem] lg:min-h-[52.3125rem]",
-    "pb-20 lg:pb-[6.25rem] px-6"
+    "min-h-screen pt-[7.5rem] pb-20 px-6"
   ),
-  gridOverlay: cn(
-    "absolute inset-0 pointer-events-none opacity-15",
-    "bg-[radial-gradient(#ffffff_1px,transparent_1px)]",
-    "[background-size:24px_24px]"
-  ),
+  gridOverlay: "absolute inset-0 pointer-events-none z-0",
+  imageCover: "w-full h-full object-cover object-top",
   big404Text: cn(
     "absolute top-4 sm:top-8 lg:top-[2.5rem]",
     "left-1/2 -translate-x-1/2 pointer-events-none select-none",
