@@ -3,13 +3,13 @@ import type { SVGProps } from "react";
 export function StarIcon({ className, ...props }: SVGProps<SVGSVGElement>) {
   return (
     <svg
-      viewBox="0 0 16 16"
+      viewBox="0 0 24 24"
       fill="none"
       className={className}
       {...props}
     >
       <path
-        d="M8 1.5L9.9 5.8L14.5 6.3L11.1 9.4L12 14L8 11.7L4 14L4.9 9.4L1.5 6.3L6.1 5.8L8 1.5Z"
+        d="M14.4297 9.61158L12.9597 4.77158C12.6697 3.82158 11.3297 3.82158 11.0497 4.77158L9.56971 9.61158H5.11971C4.14971 9.61158 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62158 18.8797 9.62158H14.4297V9.61158Z"
         fill="currentColor"
       />
     </svg>
@@ -19,16 +19,14 @@ export function StarIcon({ className, ...props }: SVGProps<SVGSVGElement>) {
 export function LevelBarsIcon({ className, ...props }: SVGProps<SVGSVGElement>) {
   return (
     <svg
-      viewBox="0 0 24 24"
+      viewBox="0 0 20 20"
       fill="none"
       className={className}
       {...props}
     >
       <path
-        d="M2 20h20M6 20V12M12 20V8M18 20V4"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
+        d="M13.75 3.33325H16.25V16.6666H13.75V3.33325ZM3.75 11.6666H6.25V16.6666H3.75V11.6666ZM8.75 7.49992H11.25V16.6666H8.75V7.49992Z"
+        fill="currentColor"
       />
     </svg>
   );
