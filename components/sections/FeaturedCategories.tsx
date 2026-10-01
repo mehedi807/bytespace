@@ -115,7 +115,7 @@ const styles = {
     "w-full min-h-[10.5rem] sm:min-h-[11.25rem]",
     "bg-white rounded-[1.5rem] p-4 sm:p-6",
     "border border-brand-gray-200 gap-3",
-    "hover:border-brand-blue hover:shadow-md",
+    "hover:border-brand-lime hover:shadow-[0_20px_40px_-15px_rgba(212,251,32,0.18)]",
     "transition-all duration-300"
   ),
   iconCircle: cn(

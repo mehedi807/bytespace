@@ -109,17 +109,20 @@ const styles = {
     "group relative flex flex-col w-full",
     "max-w-[23.3125rem] min-h-[23rem] sm:min-h-[24rem] mx-auto",
     "bg-white rounded-[1.5rem] border border-brand-gray-200",
-    "p-3.5 sm:p-4 hover:border-brand-blue hover:shadow-lg",
-    "transition-all duration-300"
+    "p-3.5 sm:p-4 hover:border-brand-lime",
+    "hover:shadow-[0_20px_40px_-15px_rgba(212,251,32,0.18)]",
+    "transition-[box-shadow,border-color] duration-300 ease-out",
+    "cursor-pointer"
   ),
   thumbnailWrapper: cn(
-    "relative w-full aspect-[341/195] sm:h-[12.1875rem]",
-    "rounded-[0.75rem] overflow-hidden",
-    "bg-brand-gray-950 shrink-0"
+    "relative w-full aspect-[341/195] rounded-[0.75rem] overflow-hidden",
+    "bg-brand-gray-950 shrink-0",
+    "[transform:translate3d(0,0,0)] [mask-image:-webkit-radial-gradient(white,black)]"
   ),
   thumbnailImage: cn(
-    "object-cover group-hover:scale-105",
-    "transition-transform duration-500"
+    "object-cover group-hover:scale-[1.04]",
+    "transition-transform duration-300 ease-out",
+    "[transform:translateZ(0)] [backface-visibility:hidden]"
   ),
   overlayBadges: cn(
     "absolute bottom-2.5 sm:bottom-3 left-2.5 sm:left-3 right-2.5 sm:right-3",
