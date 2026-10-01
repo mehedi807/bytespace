@@ -96,7 +96,7 @@ export default function Navbar() {
 }
 
 const styles = {
-  header: "relative w-full z-50 h-[7.5rem] bg-brand-blue flex items-center",
+  header: "absolute top-0 left-0 w-full z-50 h-[7.5rem] bg-transparent flex items-center",
   container: cn(
     "w-full max-w-[90rem] mx-auto px-6",
     "lg:px-[7.625rem] flex items-center justify-between"

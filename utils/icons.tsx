@@ -324,3 +324,54 @@ export function ConsultationIcon({ className, ...props }: SVGProps<SVGSVGElement
     </svg>
   );
 }
+
+export function FigmaFilterAltIcon({ className, ...props }: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      {...props}
+    >
+      <path d="M4.25 5.75h15.5l-6.2 7.15v5.85l-3.1-1.55v-4.3z" />
+    </svg>
+  );
+}
+
+export function FigmaCategoryIcon({ className, ...props }: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={className}
+      {...props}
+    >
+      <circle cx="6.5" cy="6.5" r="4.5" />
+      <rect x="13" y="13" width="9" height="9" rx="1" />
+      <path d="M17.5 2L13 10h9L17.5 2z" />
+    </svg>
+  );
+}
+
+export function FigmaSortIcon({ className, ...props }: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      className={className}
+      {...props}
+    >
+      <path d="M3 18h6M3 12h12M3 6h18" />
+    </svg>
+  );
+}
+

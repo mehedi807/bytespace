@@ -56,9 +56,8 @@ const styles = {
     "w-[9.375rem] min-[400px]:w-[10.9375rem] min-[440px]:w-[12.1875rem]",
     "sm:w-[14.375rem] lg:w-[16.125rem]",
     "pointer-events-auto border border-white/40 backdrop-blur-md",
-    "left-2 min-[440px]:left-4",
-    "sm:left-[calc(50%-20.625rem)] lg:left-[calc(50%-24.5rem)]",
-    "bottom-2 sm:bottom-4 md:bottom-6 lg:bottom-auto lg:top-[44.8125rem]"
+    "left-[-6%] sm:left-[-12%] lg:left-[-17.8%]",
+    "top-[55%] sm:top-[60.1%]"
   ),
   headerRow: "flex items-center justify-between",
   title: cn(

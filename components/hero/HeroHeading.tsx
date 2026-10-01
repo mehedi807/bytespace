@@ -16,20 +16,20 @@ export default function HeroHeading() {
 const styles = {
   wrapper: cn(
     "flex flex-col items-center",
-    "gap-2 sm:gap-4 lg:gap-8",
+    "gap-2 sm:gap-3 lg:gap-4",
     "w-full max-w-[58.4375rem] text-center"
   ),
   title: cn(
     "font-heading font-semibold text-white tracking-tight",
     "text-[1.75rem] min-[380px]:text-[2rem] min-[440px]:text-[2.25rem]",
-    "sm:text-[2.875rem] md:text-[3.625rem] lg:text-[4.5rem]",
+    "sm:text-[2.75rem] md:text-[3.25rem] lg:text-[3.75rem] xl:text-[4.25rem]",
     "leading-[1.15em] lg:leading-[1.2em]"
   ),
   description: cn(
     "font-satoshi font-normal text-brand-gray-100",
     "text-[0.8125rem] min-[440px]:text-[0.875rem]",
-    "sm:text-[1rem] lg:text-[1.125rem]",
+    "sm:text-[0.9375rem] lg:text-[1.0625rem]",
     "leading-[1.5em] lg:leading-[1.6em]",
-    "max-w-[58.4375rem]"
+    "max-w-[54rem]"
   ),
 };
