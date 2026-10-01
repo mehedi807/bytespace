@@ -21,10 +21,11 @@ export default function HeroStudentStage() {
 const styles = {
   stage: cn(
     "absolute z-10 pointer-events-none",
-    "left-1/2 -translate-x-1/2",
-    "bottom-[-1.5rem] sm:bottom-[-1.8125rem]",
-    "w-[20rem] sm:w-[26rem] md:w-[30rem] lg:w-[36.125rem]",
-    "h-[19.6rem] sm:h-[25.5rem] md:h-[29.4rem] lg:h-[33.8125rem]"
+    "left-1/2 translate-x-[calc(-50%+1.5rem)] sm:translate-x-[calc(-50%+2.25rem)]",
+    "md:translate-x-[calc(-50%+2.75rem)] lg:translate-x-[calc(-50%+3.375rem)]",
+    "bottom-[-4.25rem] sm:bottom-[-5.9375rem] md:bottom-[-7.1875rem] lg:bottom-[-8.4375rem]",
+    "w-[21.25rem] sm:w-[28.75rem] md:w-[34.375rem] lg:w-[41.125rem]",
+    "h-[20.875rem] sm:h-[28.25rem] md:h-[33.75rem] lg:h-[40.5rem]"
   ),
   image: "w-full h-full object-contain object-bottom",
 };

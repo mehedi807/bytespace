@@ -27,7 +27,7 @@ const styles = {
   stageWrapper: "relative w-full h-full",
   contentWrapper: cn(
     "absolute z-10 left-0 right-0 px-4",
-    "top-[7.5rem] sm:top-[8.5rem] lg:top-[9rem] xl:top-[10.5625rem]",
+    "top-[6.5rem] sm:top-[7.25rem] lg:top-[7.75rem] xl:top-[8.5rem]",
     "flex flex-col items-center text-center"
   ),
 };

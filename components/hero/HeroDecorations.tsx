@@ -31,9 +31,9 @@ const styles = {
   ellipseRing: cn(
     "absolute pointer-events-none rounded-full border-brand-lime-alt z-[1]",
     "left-1/2 -translate-x-1/2",
-    "w-[28.75rem] h-[28.75rem] border-[6.875rem] top-[26rem]",
-    "sm:w-[46.875rem] sm:h-[46.875rem] sm:border-[11.25rem] sm:top-[30rem]",
-    "lg:w-[71.8125rem] lg:h-[71.8125rem] lg:border-[20rem] lg:top-[36.375rem]"
+    "w-[28.75rem] h-[28.75rem] border-[6.875rem] top-[24.5rem]",
+    "sm:w-[46.875rem] sm:h-[46.875rem] sm:border-[11.25rem] sm:top-[28.5rem]",
+    "lg:w-[71.8125rem] lg:h-[71.8125rem] lg:border-[20rem] lg:top-[33.5rem]"
   ),
   ornamentContainer: cn(
     "absolute pointer-events-none overflow-hidden z-[2]",

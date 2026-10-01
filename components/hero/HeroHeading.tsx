@@ -16,7 +16,7 @@ export default function HeroHeading() {
 const styles = {
   wrapper: cn(
     "flex flex-col items-center",
-    "gap-2 sm:gap-3 lg:gap-4",
+    "gap-4 sm:gap-6 lg:gap-8",
     "w-full max-w-[58.4375rem] text-center"
   ),
   title: cn(

@@ -21,7 +21,7 @@ const styles = {
     "rounded-xl sm:rounded-2xl p-2 sm:p-3 lg:p-4",
     "shadow-2xl flex-col gap-0.5 sm:gap-1 lg:gap-2",
     "pointer-events-auto border border-white/40 backdrop-blur-md",
-    "left-[-2%] sm:left-[-4.7%]",
+    "left-[-4%] sm:left-[-6.5%] lg:left-[-8.5%]",
     "top-[20%] sm:top-[23.5%]"
   ),
   title: cn(
